@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+
+         <!-- Custom Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+        <link href="//db.onlinewebfonts.com/c/9b6ea01638fd252fe935acad72ebb914?family=SignPainter-HouseScript" rel="stylesheet" type="text/css"/>
+
+        <title>Coming Soon - Voca+</title>
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img class="navbar-icon" src="img/navbar_icon.png" alt="" class="d-inline-block align-text-top">
+                VOCA+
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="mailto: hello@vocaplus.app">
+                            <img src="img/email.png" height=24 width=24>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.instagram.com/vocaplusapp/">
+                            <img src="img/instagram.png" height=20 width=20>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://twitter.com/VocaPlusapp">
+                            <img src="img/twitter.png" height=20 width=20>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'index' %}">
+                            <img src="img/facebook.png" height=20 width=20>
+                        </a>
+                    </li>
+                </ul>
+               </div>
+            </div>
+        </nav>
+    </head>
+    
+    <body>
+        <main>
+            <div class="section section-header">
+                <div class="container py-4">
+                    <br>
+                    <div class="p-3 mb-4 rounded-3">
+                    <div class="row">
+                       
+                        <div class="col-md-6 text-left col-z index">
+                            <h1 class="title">
+                                <span class="app-pretitle fw-bold">Enrich your vocabulary・Boost your communication skills・Remember every new word you meet with </span><span class="app-title">VOCA+</span>
+                            </h1> 
+                            <div class="language text-left">
+                                <br>
+                                <a href="index.html" style="color: grey"> ↑ Read less</a>
+                            </div>
+                            <p class="desc">
+                                Hello, world! 👋 My name is Zoé Schreiber. I'm an iOS and web developper, writer, communication strategist and the founder of Voca+, an iOS app powered by Oxford Languages that helps you remember every new word you meet. I developed and designed Voca+ for people like you and me who actively want to enrich their personal lexicon — be it in their mother-tongue or in a foreign language. Students, professionals from all horizons, linguists, writers, editors, translators, public speakers... Or simply curious individuals and avid readers! I'm working hard to iterate fast and improve the current version of the app. Voca+ is currently in a Beta Testing phase and will be coming to the App Store soon. Don’t hesitate to contact me here if you have any questions or feedback. I look forward to embarking you on this journey!</p>
+                            <br>
+                                <h5 class="early">⏳🚀
+                                    Join the waitlist to be notified when Voca+ is available on the App Store! 
+                                </h5>
+                            <br>
+                            
+                            <script type='text/javascript' src='config.js'></script>
+                            <div id="root"></div>
+                            <style>
+                                h1 {
+                                    color: #000000;
+                                }
+                                .container--waitlistapi {
+                                    margin: 0 auto; 
+                                    background-color: #fffcfc;
+                                }
+                                .button--waitlistapi {
+                                    background-color: #256efc;
+                                }
+                                .statusTextContainer--waitlistapi {
+                                    color: #000000;
+                                }
+                                .referralLinkField--text {
+                                    color: #000000;
+                                }
+                            </style>
+                            <script 
+                            src="https://unpkg.com/waitlistapi/dist/widget.js" 
+                            id="Waitlist-API-Script" 
+                            data-config="{
+                                'name': 'w1', 
+                                'api_key': 'KK61YW', 
+                                'waitlist_link': 'https://vocaplus.app',
+                                'config': {'targetElementId': 'root'},
+                
+                                'joinWaitlistHeading': ' ',
+                                'checkStatusHeading': ' ',
+                                'joinWaitlistButton': 'SIGN UP',
+                                'checkStatusButton': 'Check status',
+                                'switchToCheckStatusLabel': 'Signed up before?',
+                                'switchToCheckStatusLink': 'Check your status',
+                                'switchToJoinWaitlistLabel': 'Not signed up?',
+                                'switchToJoinWaitlistLink': 'Join waitlist'
+                
+                        }">
+                        </script>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <img class="app-screenshot" src="img/app-screenshot2.png" height="500" width="250" id="app-illustration" onContextMenu="return false;">
+                            <br>
+                            <br>
+                            <img class="app-screenshot" src="img/appstorecomingsoon.png" height="45" width="160" id="comingsoon-illustration" onContextMenu="return false;">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4">
+              <footer class="pt-3 mt-4 text-muted border-top">
+                &copy; Copyright, 2021, Zoé Schreiber. All rights reserved.
+              </footer>
+            </div>
+        </main>
+    </body> 
+</html>
