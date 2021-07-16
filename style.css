@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: 'SignPainter-HouseScript';
+    src: url("fonts/SignPainter-HouseScript Semibold/SignPainter-HouseScript Semibold.ttf");
+}
+/* @font-face {
+    font-family: 'Montserrat';
+    src: url("/static/beta/fonts/Montserrat/Montserrat-Regular.ttf");
+} */
+/* @font-face {
+    font-family: 'Cardo';
+    src: url("/static/beta/fonts/Cardo/Cardo-Regular.ttf");
+} */
+
+.navbar-brand {
+    font-size: xx-large;
+    font-family: SignPainter-HouseScript;
+    font-style: bold;
+}
+
+.navbar-icon {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+
+.nav-item {
+    /* font-family: Montserrat; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app-title {
+    font-family: SignPainter-HouseScript;
+    font-size: larger;
+    font-style: bold;
+}
+
+.desc {
+    font-family: 'Cardo', serif;
+}
+
+.early {
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+}
+.app-pretitle {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.green {
+    color: #8ac541;
+}
+
+.orange {
+    color: #f58721;
+}
+
+.red {
+    color: #ea272a;
+}
+
+.blue {
+    color: #1276bd;
+}
+
+.col-md-8 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-md-6 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-screenshot {
+    pointer-events: none;
+}
+
+.button--waitlistapi {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    background-color: #256efc;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 10px; 
+    vertical-align: middle;
+    text-align: center;
+}
+
+footer {
+    font-family: Cardo;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+.language {
+    color: grey;
+    font-family: Cardo;
+}
