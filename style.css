@@ -39,6 +39,10 @@
     font-family: 'Cardo', serif;
 }
 
+.desc a[href^="mailto:"] {
+    color: grey;
+}
+
 .early {
     font-family: 'Montserrat', sans-serif;
     font-style: bold;
